@@ -1,3 +1,4 @@
+```
 # sudo iptables -A INPUT -p tcp --dport 10009 -j ACCEPT
 
 bitcoin.node=bitcoind
@@ -10,3 +11,4 @@ bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
 debuglevel=info
 
 rpclisten=0.0.0.0:10009
+```
