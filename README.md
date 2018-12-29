@@ -28,5 +28,5 @@ server=1
 rpcuser=user-name-here-9348752345
 rpcpassword=user-passowrd-here-3462346
 
-rpcallowip=192.168.0.0
+rpcallowip=192.168.0.5
 ```
