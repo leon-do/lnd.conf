@@ -30,3 +30,5 @@ rpcpassword=user-passowrd-here-3462346
 
 rpcallowip=192.168.0.5
 ```
+
+![](https://i.imgur.com/Hk9S9DJ.png)
