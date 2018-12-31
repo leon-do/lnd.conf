@@ -34,3 +34,19 @@ rpcallowip=192.168.0.5
 ```
 
 ![](https://i.imgur.com/Hk9S9DJ.png)
+
+```
+const bitcoin = require('bitcoin')
+
+var client = new bitcoin.Client({
+    host: '192.168.0.7',
+    port: 8332,
+    user: 'user-name-here-9348752345',
+    pass: 'user-passowrd-here-3462346'
+});
+
+client.cmd('getbalance', '*', 6, function(err, balance, resHeaders){
+  if (err) return console.log(err);
+  console.log('Balance:', balance);
+});
+```
