@@ -32,8 +32,6 @@ rpcpassword=user-passowrd-here-3462346
 
 rpcallowip=192.168.0.5
 
-# use external hard drive
-datadir=/media/ldo/BLOCKCHAINS/.bitcoin/
 ```
 
 ![](https://i.imgur.com/Hk9S9DJ.png)
