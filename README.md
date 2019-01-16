@@ -1,5 +1,6 @@
 ```
 # lnd.conf
+# kill $(lsof -t -i:10009)
 # sudo iptables -A INPUT -p tcp --dport 10009 -j ACCEPT
 
 bitcoin.node=bitcoind
