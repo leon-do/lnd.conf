@@ -19,22 +19,20 @@ rpclisten=0.0.0.0:10009
 # bitcoin.conf
 # sudo iptables -A INPUT -p tcp --dport 8332 -j ACCEPT
 
+# server=1 tells Bitcoin-Qt and bitcoind to accept JSON-RPC commands
+server=1
+
 # Enable publish raw block in <address>
 zmqpubrawblock=tcp://127.0.0.1:28332
 
 # Enable publish raw transaction in <address>
 zmqpubrawtx=tcp://127.0.0.1:28333
 
-
-# server=1 tells Bitcoin-Qt and bitcoind to accept JSON-RPC commands
-server=1
-
 # On client-side, you add the normal user/password pair to send commands:
 rpcuser=user-name-here-9348752345
 rpcpassword=user-passowrd-here-3462346
 
 rpcallowip=192.168.0.5
-
 ```
 
 ![](https://i.imgur.com/Hk9S9DJ.png)
