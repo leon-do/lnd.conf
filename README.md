@@ -19,8 +19,10 @@ rpclisten=0.0.0.0:10009
 # bitcoin.conf
 # sudo iptables -A INPUT -p tcp --dport 8332 -j ACCEPT
 
-#ligthning shit
+# Enable publish raw block in <address>
 zmqpubrawblock=tcp://127.0.0.1:28332
+
+# Enable publish raw transaction in <address>
 zmqpubrawtx=tcp://127.0.0.1:28333
 
 
